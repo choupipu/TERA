@@ -1,18 +1,14 @@
 {
-  "name": "TERA",
+  "name": "tera",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "choupi",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.2.1",
-    "ffmpeg-binaries": "^3.2.2-3",
-    "opusscript": "0.0.4",
-    "simple-youtube-api": "^3.0.1",
-    "ytdl-core": "^0.18.1"
+    "discord.js": "^11.5.1"
   }
 }
