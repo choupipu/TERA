@@ -11,4 +11,4 @@ bot.on('message', message => {
     }
   })
 
-bot.login('process.env.TOKEN')
+bot.login('NjI3NDQwODcyNzQ5MDA2ODQ4.XZDwug.7NpSuDRv7yXWjBFCwREM-24vyfM')
