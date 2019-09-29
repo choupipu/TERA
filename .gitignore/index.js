@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-bot.on('ready', function () {
+tera.on('ready', function () {
   console.log("Je suis connecté !")
 });
 
