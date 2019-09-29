@@ -1,7 +1,7 @@
   
 {
-  "name": "Test",
-  "description": "Test",
+  "name": "tera",
+  "description": "",
   "version": "0.0.0",
   "main": "index.js",
   "scripts": {
