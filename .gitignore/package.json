@@ -1,7 +1,7 @@
   
 {
-  "name": "tera",
-  "description": "",
+  "name": "bot",
+  "description": "bot",
   "version": "0.0.0",
   "main": "index.js",
   "scripts": {
