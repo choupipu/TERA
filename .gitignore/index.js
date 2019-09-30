@@ -6,6 +6,13 @@ bot.on('ready', function () {
     console.log("je suis connecté !")
 });
 
+    //Message mp bienvenue
+bot.on('guildMemberAdd', member => {
+  member.createDM().then(channel => {
+    return channel.send('Bienvenue sur le serveur!' + member.displayName)
+  }).catch(console.error)
+})
+
     //Message de bienvenue sur le serveur.
 //bot.on('guildMemberAdd', member => {
 
