@@ -36,8 +36,15 @@ bot.on('guildMemberAdd', member => {
 //    });
 
 bot.on('message', message => {
-    if (message.content === prefix + "test1") {
-        message.reply('test réussi')
+    if (message.content === prefix + "aide") {
+        message.reply('La liste des commande !
+                      !tank
+                      !guerrier
+                      !pretrese
+                      !mystique
+                      !sorciere
+                      !ninja
+                      ceci est un test rien a était ajouté')
     }
 });
 
