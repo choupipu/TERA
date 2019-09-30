@@ -36,20 +36,16 @@ bot.on('guildMemberAdd', member => {
 //    });
 
 bot.on('message', message => {
-    if (message.content === prefix + "test") {
-    message.reply'test réussi')
+    if (message.content === prefix + "test1") {
+        message.reply('test réussi')
     }
-    })
+});
 
- bot.on('message'), message => {
-    if(message.content[0] === prefix) {
-         if(message.content === "test2") {
-            message.auther.create().then(channeml {
-                    channel.send('test2 réussi');
-            }).catch(console.error);
-         }
-    }
- };
+bot.on('message', message => {
+    if (message.content === prefix + "test2"){
+        message.author.send("test message privée réussi !")
+    };
+});
 
     //connecté le bot.
 bot.login(process.env.TOKEN);
