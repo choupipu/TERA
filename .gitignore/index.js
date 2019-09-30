@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
+var = prefix "!"
 
     //Quand le bot ce connecte si tout fonctionne.
 bot.on('ready', function () {
@@ -9,7 +10,7 @@ bot.on('ready', function () {
     //Message mp bienvenue
 bot.on('guildMemberAdd', member => {
   member.createDM().then(channel => {
-    return channel.send('Bienvenue sur le serveur!' + member.displayName)
+    return channel.send('Bienvenue sur le serveur! ' + member.displayName)
   }).catch(console.error)
 })
 
@@ -35,8 +36,10 @@ bot.on('guildMemberAdd', member => {
 //    });
 
 bot.on('message', message => {
-    if (message.content === '!test') {
-    message.reply('test réussi')
+    if (message.content === prefix + 'test') {
+        member.createDM().then(channel => {
+    return channel.send('test réussi '
+    //message.reply('test réussi')
     }
     })
 
