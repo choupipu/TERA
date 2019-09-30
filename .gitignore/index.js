@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-var = prefix "!"
+var prefix = '!';
 
     //Quand le bot ce connecte si tout fonctionne.
 bot.on('ready', function () {
