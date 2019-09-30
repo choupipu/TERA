@@ -37,9 +37,7 @@ bot.on('guildMemberAdd', member => {
 
 bot.on('message', message => {
     if (message.content === prefix + 'test') {
-        member.createDM().then(channel => {
-    return channel.send('test réussi '
-    //message.reply('test réussi')
+    message.reply('test réussi')
     }
     })
 
