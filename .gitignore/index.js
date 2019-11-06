@@ -198,7 +198,7 @@ try {
         this.anyoneCanPause = (options && typeof options.anyoneCanPause !== 'undefined' ? options && options.anyoneCanPause : false);
         this.anyoneCanAdjust = (options && typeof options.anyoneCanAdjust !== 'undefined' ? options && options.anyoneCanAdjust : false);
         this.youtubeKey = (options && options.youtubeKey);
-        this.botPrefix = (options && options.botPrefix) || "!";
+        this.botPrefix = (options && options.botPrefix) || "*";
         this.defVolume = (options && options.defVolume) || 50;
         if (options.maxQueueSize === 0) {
           this.maxQueueSize = 0;
