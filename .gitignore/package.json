@@ -1,14 +1,33 @@
 {
   "name": "tera",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.2",
+  "description": "A simple Node.js based music extension/bot for Discord.js projects using YouTube.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.5.1"
-  }
+    "ytdl-core": "^0.29.7",
+    "ytpl": "^0.1.16",
+    "ytsearcher": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "keywords": [
+    "discord",
+    "discord.js",
+    "music",
+    "bot",
+    "addon",
+    "plugin"
+  ],
+  "author": "",
+  "license": "ISC"
 }
