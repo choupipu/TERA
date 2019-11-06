@@ -1,5 +1,3 @@
-exports.TOKEN = '';
+exports.PREFIX = '*';
 
-exports.PREFIX = 'm!';
-
-exports.GOOGLE_API_KEY = '';
+exports.GOOGLE_API_KEY = 'AIzaSyCrz1dbCZmNSmgysQhRuGsSbw2RPMButxQ';
