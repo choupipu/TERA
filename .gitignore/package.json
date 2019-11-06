@@ -2,7 +2,7 @@
   "name": "tera",
   "version": "0.1.0",
   "description": "A simple discord bot",
-  "main": "MusicBot.js",
+  "main": "index.js",
   "scripts": {
     "test": ""
   },
@@ -11,8 +11,7 @@
     "bot",
     "discordbot"
   ],
-  "author": "iCrawl",
-  "license": "MIT",
+  "author": "",
   "dependencies": {
     "discord.js": "^11.1.0",
     "opusscript": "0.0.3",
