@@ -1,33 +1,32 @@
 {
   "name": "tera",
-  "version": "0.0.2",
-  "description": "A simple Node.js based music extension/bot for Discord.js projects using YouTube.",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "A simple discord bot",
+  "main": "MusicBot.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
-  "dependencies": {
-    "ytdl-core": "^0.29.7",
-    "ytpl": "^0.1.16",
-    "ytsearcher": "^1.2.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
-  "bugs": {
-    "url": ""
-  },
-  "homepage": "",
   "keywords": [
     "discord",
-    "discord.js",
-    "music",
     "bot",
-    "addon",
-    "plugin"
+    "discordbot"
   ],
-  "author": "",
-  "license": "ISC"
+  "author": "iCrawl",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.1.0",
+    "opusscript": "0.0.3",
+    "simple-youtube-api": "^3.0.0",
+    "ytdl-core": "^0.16.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "eslint-config-aqua": "^1.0.0"
+  },
+  "eslintConfig": {
+    "extends": "aqua",
+    "rules": {
+      "no-console": 0
+    }
+  }
 }
