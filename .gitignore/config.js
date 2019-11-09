@@ -1,3 +1,4 @@
-exports.PREFIX = '*';
-
-exports.GOOGLE_API_KEY = 'AIzaSyCrz1dbCZmNSmgysQhRuGsSbw2RPMButxQ';
+{
+"prefix": "!",
+"token": "process.env.TOKEN"
+}
