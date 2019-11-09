@@ -1,6 +1,10 @@
 {
   "name": "tera",
   "version": "1.0.0",
+  "engines": {
+  "node": "12.13.0"
+ }
+}
   "repository": "https://github.com/choupipu/Tera.git",
   "description": "A simple discord music bot",
   "main": "index.js",
