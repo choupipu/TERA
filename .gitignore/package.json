@@ -1,8 +1,20 @@
 {
-  "name": "tera",
-  "version": "0.1.0",
-  "description": "A simple discord bot",
-  "main": "index.js",
-  "scripts": {
-    "test": ""
-  },
+    "name": "tera",
+    "description": "",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": ""
+    },
+    "homepage": ""
+  }
